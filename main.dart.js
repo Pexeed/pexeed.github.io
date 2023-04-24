@@ -23415,15 +23415,15 @@ aH1(a){switch(a.a){case 0:return B.vL
 case 1:return B.vM
 case 2:return B.LV
 case 3:return B.vN}},
-Vh(a){var s=0,r=A.S(t.y),q,p,o,n,m,l
-var $async$Vh=A.T(function(b,c){if(b===1)return A.P(c,r)
+Vh(a,b){var s=0,r=A.S(t.y),q,p,o,n,m,l
+var $async$Vh=A.T(function(c,d){if(c===1)return A.P(d,r)
 while(true)switch(s){case 0:o=$.awH()
 n=a.j(0)
 m=A.aH1(B.Gv)
 l=B.b.b1(n,"http:")||B.b.b1(n,"https:")
 if(m!==B.vM)p=l&&m===B.vL
 else p=!0
-q=o.abh(n,!0,!0,B.KJ,m===B.vN,p,p,null)
+q=o.abh(n,!0,!0,B.KJ,m===B.vN,p,p,b)
 s=1
 break
 case 1:return A.Q(q,r)}})
@@ -41117,7 +41117,7 @@ s=$.apG()
 return A.a8n(m,n,A.p_(A.a([A.AC(A.f6("d4",o,o,o,s,o,o,o),new A.a7H(a),o),A.AC(A.f6("d6",o,o,o,s,o,o,o),new A.a7I(a),o),A.AC(A.f6("d8",o,o,o,s,o,o,o),new A.a7J(a),o),A.AC(A.f6("d10",o,o,o,s,o,o,o),new A.a7K(a),o),A.AC(A.f6("d12",o,o,o,s,o,o,o),new A.a7L(a),o),A.AC(A.f6("d20",o,o,o,s,o,o,o),new A.a7M(a),o)],t.p),B.as,B.tX,B.b6),o,o)},
 $S:392}
 A.a7F.prototype={
-$0(){A.Vh(A.jG("https://www.instagram.com/cripta_rpg/",0,null))},
+$0(){A.Vh(A.jG("https://www.instagram.com/cripta_rpg/",0,null),"_blank")},
 $S:0}
 A.a7G.prototype={
 $1(a){var s,r,q
@@ -41199,14 +41199,14 @@ A.fn.prototype={
 I(a){var s=null
 return A.wt(A.a([A.HM(this.c,1),A.d3(s,A.azu(B.I,!0,new A.XU(this),this.d),s,s,s,s,s,B.bt,350)],t.p),B.as,B.b5,B.b6)}}
 A.XU.prototype={
-$0(){return A.Vh(A.jG(this.a.e,0,null))},
+$0(){return A.Vh(A.jG(this.a.e,0,null),"_blank")},
 $S:0}
 A.lO.prototype={
 I(a){var s=null
 return A.f3(A.aru(B.Q,this.c,new A.XV(this),A.f6(this.d,s,s,s,A.ap7(B.dm),s,s,s),B.FU),48,s)}}
 A.XV.prototype={
 $0(){var s=this.a,r=s.e
-if(r!=null)s=A.Vh(A.jG(r,0,null))
+if(r!=null)s=A.Vh(A.jG(r,0,null),"_blank")
 else{s=s.f
 s=s==null?null:s.$0()}return s},
 $S:0}
